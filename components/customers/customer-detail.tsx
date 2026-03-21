@@ -37,8 +37,8 @@ export function CustomerDetail({ customer }: CustomerDetailProps) {
   return (
     <div className="space-y-6">
       <div className="flex items-center gap-4">
-        <Button variant="outline" size="sm" asChild>
-          <Link href="/customers">← 一覧に戻る</Link>
+        <Button variant="outline" size="sm" render={<Link href="/customers" />}>
+          ← 一覧に戻る
         </Button>
       </div>
 
@@ -53,8 +53,8 @@ export function CustomerDetail({ customer }: CustomerDetailProps) {
             </Badge>
           </CardTitle>
           <CardAction>
-            <Button variant="outline" size="sm" asChild>
-              <Link href={`/customers/${customer.id}/edit`}>編集</Link>
+            <Button variant="outline" size="sm" render={<Link href={`/customers/${customer.id}/edit`} />}>
+              編集
             </Button>
           </CardAction>
         </CardHeader>
