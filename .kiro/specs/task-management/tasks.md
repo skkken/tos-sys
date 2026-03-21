@@ -37,7 +37,7 @@
   - 成功時は revalidatePath でキャッシュを無効化する
   - _Requirements: 5.1, 5.2, 5.3, 5.4_
 
-- [ ] 3.2 (P) タスクの CRUD Server Actions を実装する
+- [x] 3.2 (P) タスクの CRUD Server Actions を実装する
   - タスク一覧取得（ステータス・優先度・プロジェクトフィルタ、ソート対応）、単一取得、作成、更新、削除、ステータス変更のServer Actionsを実装する
   - 一覧取得時にプロジェクト名をJOINして返却する
   - ステータスが 'done' に変更された場合は completed_at を現在日時に設定し、'done' 以外に変更された場合は null に設定する
