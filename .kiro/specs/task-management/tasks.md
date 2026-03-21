@@ -16,7 +16,7 @@
   - _Requirements: 2.1, 2.2, 2.3, 2.4, 3.2_
 
 - [ ] 2. 型定義とバリデーションスキーマの構築
-- [ ] 2.1 (P) プロジェクトの型定義とバリデーションスキーマを作成する
+- [x] 2.1 (P) プロジェクトの型定義とバリデーションスキーマを作成する
   - Project インターフェースを定義する（id, name, description, customer_id, status, start_date, end_date, timestamps, user_id）
   - プロジェクトステータスのenum型スキーマを定義する（active/completed/on_hold/cancelled）
   - 作成用と更新用の共通バリデーションスキーマを定義する（nameは必須、statusは制約値のみ）
