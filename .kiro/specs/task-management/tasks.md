@@ -22,7 +22,7 @@
   - 作成用と更新用の共通バリデーションスキーマを定義する（nameは必須、statusは制約値のみ）
   - _Requirements: 4.1, 4.2, 4.6_
 
-- [ ] 2.2 (P) タスクの型定義とバリデーションスキーマを作成する
+- [x] 2.2 (P) タスクの型定義とバリデーションスキーマを作成する
   - Task インターフェースを定義する（id, title, description, project_id, status, priority, due_date, completed_at, timestamps, user_id）
   - タスクステータスとプライオリティのenum型スキーマを定義する
   - 作成用と更新用の共通バリデーションスキーマを定義する（titleは必須、status/priorityは制約値のみ）
