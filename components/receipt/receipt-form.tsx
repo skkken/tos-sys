@@ -13,7 +13,7 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { receiptCreateSchema, type PaymentMethod } from '@/lib/validations/receipt'
-import type { OCRResult } from '@/lib/services/ocr'
+import type { OCRResult } from '@/lib/types/receipt'
 
 interface ReceiptFormProps {
   storagePath: string
