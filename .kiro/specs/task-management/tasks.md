@@ -8,7 +8,7 @@
   - updated_at 自動更新トリガー関数（update_updated_at_column）とトリガーを作成する
   - _Requirements: 1.1, 1.2, 1.3, 3.1_
 
-- [ ] 1.2 tasks テーブルのマイグレーション作成
+- [x] 1.2 tasks テーブルのマイグレーション作成
   - tasks テーブルを作成し、title（必須）、description、project_id（projects参照、ON DELETE SET NULL）、status（CHECK制約: todo/in_progress/done/cancelled）、priority（CHECK制約: low/medium/high/urgent）、due_date、completed_at、timestamps、user_id を定義する
   - user_id、status、priority、project_id、due_date にインデックスを作成する
   - RLSを有効にし、認証済みユーザーが自身のデータのみ操作できる4つのポリシーを設定する
