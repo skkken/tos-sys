@@ -104,11 +104,7 @@ export async function updateCustomer(
 
   revalidatePath('/customers')
   revalidatePath(`/customers/${id}`)
-
-  return {
-    success: true,
-    message: '顧客情報を更新しました',
-  }
+  redirect(`/customers/${id}`)
 }
 
 export async function createCustomer(
