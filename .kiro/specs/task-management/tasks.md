@@ -30,7 +30,7 @@
   - _Requirements: 4.3, 4.4, 4.5, 4.6_
 
 - [ ] 3. Server Actions の構築
-- [ ] 3.1 (P) プロジェクトの CRUD Server Actions を実装する
+- [x] 3.1 (P) プロジェクトの CRUD Server Actions を実装する
   - プロジェクト一覧取得（ステータスフィルタ対応）、単一取得、作成、更新、削除のServer Actionsを実装する
   - 作成・更新時にZodバリデーションを実行し、エラーはActionState形式で返却する
   - 作成時にログインユーザーの user_id を自動設定する
