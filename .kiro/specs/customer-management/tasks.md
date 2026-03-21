@@ -20,7 +20,7 @@
   - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
 - [ ] 2. Server ActionsによるCRUDロジックの実装
-- [ ] 2.1 顧客一覧取得のServer Actionを実装し、検索・フィルタ・ソートに対応する
+- [x] 2.1 顧客一覧取得のServer Actionを実装し、検索・フィルタ・ソートに対応する
   - createAuthServerClientを使用してユーザーセッション付きでSupabaseにアクセスする
   - 検索キーワードによる名前・会社名の部分一致検索（ilike）を実装する
   - ステータスフィルタ（active / inactive / all）を実装する
