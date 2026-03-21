@@ -35,7 +35,7 @@
   - 成功時にrevalidatePathで一覧ページのキャッシュを無効化する
   - _Requirements: 9.1, 9.2, 9.4_
 
-- [ ] 2.3 (P) 顧客更新のServer Actionを実装する
+- [x] 2.3 (P) 顧客更新のServer Actionを実装する
   - idをbindでバインドするパターンでuseActionStateと互換にする
   - Zodバリデーションを実行し、エラー時はActionState形式で返す
   - updated_atはDBトリガーで自動更新される
